@@ -147,6 +147,14 @@ p{
     margin-right:2rem;
     line-height: 30px;
 }
+/* Header Section */
+header{
+    background-color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
 /* Nav section*/
 .logo{
     width: 100px;
@@ -160,7 +168,7 @@ ul li{
 
 a{
     text-decoration: none;  
-    color: black;  
+    color: #FFED65;  
 }
 h1{
     font-size: 30px;
@@ -171,7 +179,15 @@ h1{
     margin-bottom: 3rem;
 }
 
+/* Button */
 
+button{
+    border-radius: 20px;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 footer{
     margin-top: 5rem;
 }
