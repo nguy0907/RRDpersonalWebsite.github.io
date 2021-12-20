@@ -190,4 +190,8 @@ button{
 }
 footer{
     margin-top: 5rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+    color: #FFED65;  
 }
