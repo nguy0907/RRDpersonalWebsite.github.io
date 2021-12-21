@@ -172,9 +172,11 @@ a{
 }
 h1{
     font-size: 30px;
+    font-weight: bold;
     margin-top:3rem;
     margin-bottom: 3rem;
 }
+
 .banner{
     margin-bottom: 3rem;
 }
@@ -187,6 +189,9 @@ button{
     padding-bottom:0.5em;
     padding-left: 1em;
     padding-right: 1em;
+    background-color: black;
+    color: #FFED65;  
+    border-color: #FFED65 ;
 }
 footer{
     margin-top: 5rem;
@@ -194,4 +199,16 @@ footer{
     padding-bottom: 1em;
     background-color: black;
     color: #FFED65;  
+}
+
+.card{
+margin: auto;
+margin-top: 2rem;
+margin-bottom: 2rem;
+line-height: 25px;
+}
+
+h5{
+    font-size: 20px;
+font-weight: bold;
 }
