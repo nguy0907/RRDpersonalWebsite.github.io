@@ -9,3 +9,7 @@
     line-height: 25px;
     width: 80%;
     }
+
+    .goal,.skill{
+        margin-bottom: 2rem;
+    }

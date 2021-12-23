@@ -206,10 +206,48 @@ footer{
 h5{
     font-size: 20px;
 font-weight: bold;
+
+margin-top: -1rem;
+margin-left: -1rem;
+padding-top:1em;
+padding-bottom: 1em; 
+
 }
 
 .card{
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    width: auto;
+    /* border: 3px solid black; */
+}
+
+
+/* tablet screen */
+
+@media screen and (min-width:768px) {
+    .logo{
+        float: left;
+        margin-left:2rem;
+    }
+
+    ul li{
+        display: inline-block;
+        margin-top: 1rem;
+        margin-left: 4rem;
+   
+    }
+}
+
+/* Desktop Screen */
+@media screen and (min-width:1200px) {
+
+    .services{
+        display: flex;
+    }
+
+    .portfolio{
+        display: inline-block;
+    }
+
 }
